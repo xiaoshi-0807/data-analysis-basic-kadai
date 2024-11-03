@@ -1,0 +1,47 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dcppxf9fFdxd",
+        "outputId": "faa69a61-9a79-4f67-a23d-0bd4864a68f7"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "47"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "A = np.array([[0,1],[2,3],[4,5]])\n",
+        "B = np.array([[0,1,2,3],[4,5,6,7]])\n",
+        "np.dot(A,B).max()"
+      ]
+    }
+  ]
+}
